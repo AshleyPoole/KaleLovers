@@ -14,17 +14,14 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "KaleLovers", "src\KaleLover
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{771A116C-C86B-4DAE-A074-565DCB033A10}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{8C35A002-12AB-48D9-8EB6-890F679434AB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{FE87FABF-21B8-48A5-82E0-22CE68CF5E64}"
 	ProjectSection(SolutionItems) = preProject
-		PublishScripts\Scripts\Deploy-DockerAzureResourceGroup-2.ps1 = PublishScripts\Scripts\Deploy-DockerAzureResourceGroup-2.ps1
 		PublishScripts\Scripts\Deploy-DockerAzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-DockerAzureResourceGroup.ps1
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{FE4C854B-0269-4657-A6A8-976DBEFE86C3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{A54E0D6F-C763-4A87-8D18-2BDF1C4205C0}"
 	ProjectSection(SolutionItems) = preProject
-		PublishScripts\Templates\KaleLoversDockerVM-2.json = PublishScripts\Templates\KaleLoversDockerVM-2.json
 		PublishScripts\Templates\KaleLoversDockerVM.json = PublishScripts\Templates\KaleLoversDockerVM.json
-		PublishScripts\Templates\KaleLoversDockerVM.param.dev-2.json = PublishScripts\Templates\KaleLoversDockerVM.param.dev-2.json
 		PublishScripts\Templates\KaleLoversDockerVM.param.dev.json = PublishScripts\Templates\KaleLoversDockerVM.param.dev.json
 	EndProjectSection
 EndProject
@@ -44,7 +41,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8284EC63-12F2-4051-8603-F57B5ACF7E84} = {FD6E4483-332A-44DD-B26F-C08646AE9D55}
-		{8C35A002-12AB-48D9-8EB6-890F679434AB} = {771A116C-C86B-4DAE-A074-565DCB033A10}
-		{FE4C854B-0269-4657-A6A8-976DBEFE86C3} = {771A116C-C86B-4DAE-A074-565DCB033A10}
+		{FE87FABF-21B8-48A5-82E0-22CE68CF5E64} = {771A116C-C86B-4DAE-A074-565DCB033A10}
+		{A54E0D6F-C763-4A87-8D18-2BDF1C4205C0} = {771A116C-C86B-4DAE-A074-565DCB033A10}
 	EndGlobalSection
 EndGlobal
