@@ -12,14 +12,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "KaleLovers", "src\KaleLovers\KaleLovers.xproj", "{8284EC63-12F2-4051-8603-F57B5ACF7E84}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{771A116C-C86B-4DAE-A074-565DCB033A10}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{907315B5-4B14-4E60-8684-40F94EF59CBC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{FE87FABF-21B8-48A5-82E0-22CE68CF5E64}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{0199EEC4-C588-4650-B5F8-B1F20B61BA2C}"
 	ProjectSection(SolutionItems) = preProject
 		PublishScripts\Scripts\Deploy-DockerAzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-DockerAzureResourceGroup.ps1
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{A54E0D6F-C763-4A87-8D18-2BDF1C4205C0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{D13D6C2F-A2A9-4CE8-AEC8-9D778CB50E0D}"
 	ProjectSection(SolutionItems) = preProject
 		PublishScripts\Templates\KaleLoversDockerVM.json = PublishScripts\Templates\KaleLoversDockerVM.json
 		PublishScripts\Templates\KaleLoversDockerVM.param.dev.json = PublishScripts\Templates\KaleLoversDockerVM.param.dev.json
@@ -41,7 +41,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8284EC63-12F2-4051-8603-F57B5ACF7E84} = {FD6E4483-332A-44DD-B26F-C08646AE9D55}
-		{FE87FABF-21B8-48A5-82E0-22CE68CF5E64} = {771A116C-C86B-4DAE-A074-565DCB033A10}
-		{A54E0D6F-C763-4A87-8D18-2BDF1C4205C0} = {771A116C-C86B-4DAE-A074-565DCB033A10}
+		{0199EEC4-C588-4650-B5F8-B1F20B61BA2C} = {907315B5-4B14-4E60-8684-40F94EF59CBC}
+		{D13D6C2F-A2A9-4CE8-AEC8-9D778CB50E0D} = {907315B5-4B14-4E60-8684-40F94EF59CBC}
 	EndGlobalSection
 EndGlobal

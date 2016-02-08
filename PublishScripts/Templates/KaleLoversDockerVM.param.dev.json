@@ -15,16 +15,16 @@
             "value": "2016-Technical-Preview-with-Containers"
         },
         "dnsNameForPublicIP": {
-            "value": "demo04"
+            "value": "demo09"
         },
         "virtualMachineSize": {
             "value": "Standard_A2"
         },
         "adminUsername": {
-            "value": "ashley"
+            "value": "ash"
         },
         "newStorageAccountName": {
-            "value": "demo04ad121826"
+            "value": "demo09f65820ae"
         }
     }
 }
